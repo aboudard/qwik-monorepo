@@ -1,0 +1,13 @@
+{
+  "name": "qwik-mono-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "app:dev": "pnpm --filter qwik-app dev",
+    "lib:build": "pnpm --filter qwik-lib build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
